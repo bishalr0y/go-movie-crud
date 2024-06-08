@@ -33,22 +33,22 @@ func main() {
 
 	// insert some values inside the movies array
 	movies = append(movies, Movie{
-		Title: "Spiderman",
-		Year:  2018,
+		Title: "Atlas",
+		Year:  2024,
 		Genre: "Action",
 		Director: &Director{
-			Firstname: "Peter",
-			Lastname:  "Parker",
+			Firstname: "Brad",
+			Lastname:  "Payton",
 		},
 	})
 
 	movies = append(movies, Movie{
-		Title: "Iron Man",
-		Year:  2016,
+		Title: "Mad Max: Fury Road",
+		Year:  2015,
 		Genre: "Action",
 		Director: &Director{
-			Firstname: "Tony",
-			Lastname:  "Stark",
+			Firstname: "Goerge",
+			Lastname:  "Miller",
 		},
 	})
 
